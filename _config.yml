@@ -24,9 +24,9 @@ name                     : "Edward Anthony Greene"
 description              : "Portfolio and system documentation for my work in AI literacy, instructional design, and modular learning systems like Forge’s Gate."
 url                      : "https://edwardgreeneit.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "edwardgreeneit/edwardgreeneit.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/your-avatar.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
@@ -324,3 +324,22 @@ defaults:
       comments: # true
       share: true
       related: true
+
+# Enable navigation
+navigation: 
+  enabled: true
+  menu: main
+
+author:
+  name: "Edward A. Greene"
+  avatar: "/assets/images/avatar.jpg"  # Add your own photo later if desired
+  bio: "AI Literacy Educator & Systems Designer"
+  location: "Huntsville, AL"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "linkedin.com/in/edward-greene-54a67562"
+    - label: "Resume"
+      icon: "fas fa-file"
+      url: "https://link.to/resume.pdf"
+
