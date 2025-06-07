@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -26,7 +26,7 @@ url                      : # url
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # 
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/your-avatar.jpg"
+logo                     : # file path for logo
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
@@ -113,10 +113,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Edward A. Greene"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "AI Literacy Educator and Applied Prompt Specialist with a background in instructional systems design, technical integration, and user-centered curriculum development. Combines over a decade of hands-on technical service, team training, and security compliance with advanced experience in building scalable AI learning frameworks. Skilled in transforming complex language model concepts into accessible, actionable knowledge for diverse audiences."
+  location         : #
   email            :
   links:
 
